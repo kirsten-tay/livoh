@@ -63,15 +63,19 @@ const Keyfeatures = () => {
                     </button>
                 </div>
             </div>
-            <div>
-            <img src={concert}  alt="concert"/>
-            <h2>About us</h2>
-            <h5>LivOH is a live streaming platform that allows fans to watch artists perform live virtually.</h5>
-            <h5>The app also allows professionals to deliver webinars and seminars to a global audience and their specific target market.</h5>
-             <h5>We also enable audiences to interact directly with each other during performances.</h5>
-           
+            <div className="w-full relative ">
+                <img src={concert} alt="" />
+                <div className="absolute lg:mx-20 inset-0 h-full w-full flex flex-col justify-center text-left text-white ">
+                    <div className="w-3/5 space-y-5 px-11 font-light">
+                        <h2 className="font-bold text-3xl">About us</h2>
+                        <h5>LivOH is a live streaming platform that allows fans to watch artists perform live virtually.</h5>
+                        <h5 className="">The app also allows professionals to deliver webinars and seminars to a global audience and their specific target market.</h5>
+                        <h5>We also enable audiences to interact directly with each other during performances.</h5>
+                    </div>
+                </div>
             </div>
         </div>
+
     )
 }
 
