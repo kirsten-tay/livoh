@@ -65,6 +65,7 @@ const Keyfeatures = () => {
             </div>
             <div className="w-full relative ">
                 <img src={concert} alt="" />
+                <div className="absolute inset-0 bg-gradient-to-r top from-black to-transparent">
                 <div className="absolute lg:mx-20 inset-0 h-full w-full flex flex-col justify-center text-left text-white ">
                     <div className="w-3/5 space-y-5 px-11 font-light">
                         <h2 className="font-bold text-3xl">About us</h2>
@@ -73,6 +74,7 @@ const Keyfeatures = () => {
                         <h5>We also enable audiences to interact directly with each other during performances.</h5>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
 
