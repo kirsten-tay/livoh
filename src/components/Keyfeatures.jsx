@@ -64,8 +64,12 @@ const Keyfeatures = () => {
                 </div>
             </div>
             <div>
-            <img src={concert}  alt="concert" />
-
+            <img src={concert}  alt="concert"/>
+            <h2>About us</h2>
+            <h5>LivOH is a live streaming platform that allows fans to watch artists perform live virtually.</h5>
+            <h5>The app also allows professionals to deliver webinars and seminars to a global audience and their specific target market.</h5>
+             <h5>We also enable audiences to interact directly with each other during performances.</h5>
+           
             </div>
         </div>
     )
