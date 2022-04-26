@@ -1,12 +1,14 @@
 import React from 'react'
 import early from './../Assets/early.png'
+import { GlobeIcon, LibraryIcon, MapIcon } from '@heroicons/react/outline'
 
 
 const Earlyaccess =()=>{
     return(
-        <div className="py-20 ">
-            <div className="flex flex-col-1">
-                <div className="flex flex-col max-w-2xl mx-auto justify-center  w-3/5 space-y-5 py-10 px-28">
+        <div>
+        <div className=" flex flex-1 py-20 ">
+            <div className="flex flex-cols-1">
+                <div className="flex flex-col max-w-2xl mx-auto justify-center   space-y-5 py-10 px-28">
                     <h2 className="font-medium text-4xl">Get LivOH</h2>
                    <h2 className="font-medium text-4xl">Early Access</h2>
                    <div>
@@ -24,10 +26,20 @@ const Earlyaccess =()=>{
                     </button>
                 </div>
                 </div>
-                <div className="flex flex-col-2 h-auto"> 
-                    <img src={early} alt="" /></div>
+          
+            </div> 
+                 <div className="flex flex-col " > 
+                    <img src={early}className="relative h-full"  alt="" /></div>
             </div>
-            
+
+             <div className="flex flex-1 bg-slate-900">
+                 <div className="flex flex-row justify-center">
+                  <GlobeIcon className="h-10 w-10"/>
+                  <LibraryIcon className="h-10 w-10"/>
+                  <MapIcon className="h-10 w-10"/>
+                 </div>
+                <hr/>
+            </div>
         </div>
     )
 }
