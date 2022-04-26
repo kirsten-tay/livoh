@@ -42,6 +42,9 @@ const Earlyaccess =()=>{
                 <div className="flex mx-auto justify-center text-white" >
                  <h6>   &copy; 2022 LIVOH. ALL RIGHTS RESERVED</h6>
                 </div>
+                <div>
+                    
+                </div>
             </div>
         </div>
     )
