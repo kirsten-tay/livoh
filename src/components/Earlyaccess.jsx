@@ -32,13 +32,16 @@ const Earlyaccess =()=>{
                     <img src={early}className="relative h-full"  alt="" /></div>
             </div>
 
-             <div className="flex flex-1 bg-slate-900">
-                 <div className="flex flex-row justify-center">
+             <div className="flex bg-slate-900">
+                 <div className="flex mx-auto gap-3 text-center m-10 text-pink-500">
                   <GlobeIcon className="h-10 w-10"/>
                   <LibraryIcon className="h-10 w-10"/>
                   <MapIcon className="h-10 w-10"/>
                  </div>
-                <hr/>
+                <hr className="text-white"/>
+                <div >
+                 <h4>   &copy; 2022 LIVOH. ALL RIGHTS RESERVED</h4>
+                </div>
             </div>
         </div>
     )
